@@ -149,7 +149,8 @@ class HotkeyCategoryViewModel {
         let editingCategory: HotkeyCategoryModel = .init(name: "Editing", hotkeyModels: [
             .init(modifiers: [.command], character: "C", text: "Copy"),
             .init(modifiers: [.command], character: "V", text: "Paste"),
-            .init(modifiers: [.command, .shift, .option], character: "V", text: "Paste and Preserve Formatting"),            .init(modifiers: [.command], character: "D", text: "Duplicate"),
+            .init(modifiers: [.command, .shift, .option], character: "V", text: "Paste and Preserve Formatting"),
+            .init(modifiers: [.command], character: "D", text: "Duplicate"),
         ])
         let miscCategory: HotkeyCategoryModel = .init(name: "Miscellaneous", hotkeyModels: [
             .init(modifiers: [.command, .shift], character: "A", text: "Quick actions"),
